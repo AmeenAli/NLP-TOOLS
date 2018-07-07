@@ -1,0 +1,200 @@
+IN TiBefore=XX WiAfterAfter=Oct. WiAfter=an Wi=in TiBeforeBefore=XX/XX
+DT TiBefore=IN WiAfterAfter=19 WiAfter=Oct. Wi=an WiBefore=in TiBeforeBefore=XX/IN
+NNP TiBefore=DT WiAfterAfter=review WiAfter=19 Wi=oct. WiBefore=an WiBeforeBefore=in TiBeforeBefore=IN/DT
+CD TiBefore=NNP WiAfterAfter=of WiAfter=review Wi=19 WiBefore=oct. WiBeforeBefore=an TiBeforeBefore=DT/NNP
+NN TiBefore=CD WiAfterAfter=`` WiAfter=of Wi=review WiBefore=19 WiBeforeBefore=oct. TiBeforeBefore=NNP/CD
+IN TiBefore=NN WiAfterAfter=The WiAfter=`` Wi=of WiBefore=review WiBeforeBefore=19 TiBeforeBefore=CD/NN
+`` TiBefore=IN WiAfterAfter=Misanthrope WiAfter=The Wi=`` WiBefore=of WiBeforeBefore=review TiBeforeBefore=NN/IN
+DT TiBefore=`` WiAfterAfter='' WiAfter=Misanthrope Wi=the WiBefore=`` WiBeforeBefore=of TiBeforeBefore=IN/``
+NN TiBefore=DT WiAfterAfter=at contains_uppercase=True WiAfter='' prefix3=Mis prefix2=Mi prefix1=M WiBefore=the prefix4=Misa contains_hyphen=False contains_number=False WiBeforeBefore=`` suffix4=rope TiBeforeBefore=``/DT suffix2=pe suffix3=ope suffix1=e
+'' TiBefore=NN WiAfterAfter=Chicago WiAfter=at Wi='' WiBefore=misanthrope WiBeforeBefore=the TiBeforeBefore=DT/NN
+IN TiBefore='' WiAfterAfter='s WiAfter=Chicago Wi=at WiBefore='' WiBeforeBefore=misanthrope TiBeforeBefore=NN/''
+NNP TiBefore=IN WiAfterAfter=Goodman WiAfter='s Wi=chicago WiBefore=at WiBeforeBefore='' TiBeforeBefore=''/IN
+POS TiBefore=NNP WiAfterAfter=Theatre WiAfter=Goodman Wi='s WiBefore=chicago WiBeforeBefore=at TiBeforeBefore=IN/NNP
+NNP TiBefore=POS WiAfterAfter=( WiAfter=Theatre Wi=goodman WiBefore='s WiBeforeBefore=chicago TiBeforeBefore=NNP/POS
+NNP TiBefore=NNP WiAfterAfter=`` WiAfter=( Wi=theatre WiBefore=goodman WiBeforeBefore='s TiBeforeBefore=POS/NNP
+( TiBefore=NNP WiAfterAfter=Revitalized WiAfter=`` Wi=( WiBefore=theatre WiBeforeBefore=goodman TiBeforeBefore=NNP/NNP
+`` TiBefore=( WiAfterAfter=Classics WiAfter=Revitalized Wi=`` WiBefore=( WiBeforeBefore=theatre TiBeforeBefore=NNP/(
+VBN TiBefore=`` WiAfterAfter=Take contains_uppercase=True WiAfter=Classics prefix3=Rev prefix2=Re prefix1=R WiBefore=`` prefix4=Revi contains_hyphen=False contains_number=False WiBeforeBefore=( suffix4=ized TiBeforeBefore=(/`` suffix2=ed suffix3=zed suffix1=d
+NNS TiBefore=VBN WiAfterAfter=the contains_uppercase=True WiAfter=Take prefix3=Cla prefix2=Cl prefix1=C WiBefore=revitalized prefix4=Clas contains_hyphen=False contains_number=False WiBeforeBefore=`` suffix4=sics TiBeforeBefore=``/VBN suffix2=cs suffix3=ics suffix1=s
+VBP TiBefore=NNS WiAfterAfter=Stage WiAfter=the Wi=take WiBefore=classics WiBeforeBefore=revitalized TiBeforeBefore=VBN/NNS
+DT TiBefore=VBP WiAfterAfter=in WiAfter=Stage Wi=the WiBefore=take WiBeforeBefore=classics TiBeforeBefore=NNS/VBP
+NN TiBefore=DT WiAfterAfter=Windy WiAfter=in Wi=stage WiBefore=the WiBeforeBefore=take TiBeforeBefore=VBP/DT
+IN TiBefore=NN WiAfterAfter=City WiAfter=Windy Wi=in WiBefore=stage WiBeforeBefore=the TiBeforeBefore=DT/NN
+NNP TiBefore=IN WiAfterAfter=, contains_uppercase=True WiAfter=City prefix3=Win prefix2=Wi prefix1=W WiBefore=in prefix4=Wind contains_hyphen=False contains_number=False WiBeforeBefore=stage suffix4=indy TiBeforeBefore=NN/IN suffix2=dy suffix3=ndy suffix1=y
+NNP TiBefore=NNP WiAfterAfter='' WiAfter=, Wi=city WiBefore=windy WiBeforeBefore=in TiBeforeBefore=IN/NNP
+, TiBefore=NNP WiAfterAfter=Leisure WiAfter='' Wi=, WiBefore=city WiBeforeBefore=windy TiBeforeBefore=NNP/NNP
+'' TiBefore=, WiAfterAfter=& WiAfter=Leisure Wi='' WiBefore=, WiBeforeBefore=city TiBeforeBefore=NNP/,
+NN TiBefore='' WiAfterAfter=Arts WiAfter=& Wi=leisure WiBefore='' WiBeforeBefore=, TiBeforeBefore=,/''
+CC TiBefore=NN WiAfterAfter=) WiAfter=Arts Wi=& WiBefore=leisure WiBeforeBefore='' TiBeforeBefore=''/NN
+NNS TiBefore=CC WiAfterAfter=, WiAfter=) Wi=arts WiBefore=& WiBeforeBefore=leisure TiBeforeBefore=NN/CC
+) TiBefore=NNS WiAfterAfter=the WiAfter=, Wi=) WiBefore=arts WiBeforeBefore=& TiBeforeBefore=CC/NNS
+, TiBefore=) WiAfterAfter=role WiAfter=the Wi=, WiBefore=) WiBeforeBefore=arts TiBeforeBefore=NNS/)
+DT TiBefore=, WiAfterAfter=of WiAfter=role Wi=the WiBefore=, WiBeforeBefore=) TiBeforeBefore=)/,
+NN TiBefore=DT WiAfterAfter=Celimene WiAfter=of Wi=role WiBefore=the WiBeforeBefore=, TiBeforeBefore=,/DT
+IN TiBefore=NN WiAfterAfter=, WiAfter=Celimene Wi=of WiBefore=role WiBeforeBefore=the TiBeforeBefore=DT/NN
+NNP TiBefore=IN WiAfterAfter=played contains_uppercase=True WiAfter=, prefix3=Cel prefix2=Ce prefix1=C WiBefore=of prefix4=Celi contains_hyphen=False contains_number=False WiBeforeBefore=role suffix4=mene TiBeforeBefore=NN/IN suffix2=ne suffix3=ene suffix1=e
+, TiBefore=NNP WiAfterAfter=by WiAfter=played Wi=, WiBefore=celimene WiBeforeBefore=of TiBeforeBefore=IN/NNP
+VBN TiBefore=, WiAfterAfter=Kim WiAfter=by Wi=played WiBefore=, WiBeforeBefore=celimene TiBeforeBefore=NNP/,
+IN TiBefore=VBN WiAfterAfter=Cattrall WiAfter=Kim Wi=by WiBefore=played WiBeforeBefore=, TiBeforeBefore=,/VBN
+NNP TiBefore=IN WiAfterAfter=, WiAfter=Cattrall Wi=kim WiBefore=by WiBeforeBefore=played TiBeforeBefore=VBN/IN
+NNP TiBefore=NNP WiAfterAfter=was contains_uppercase=True WiAfter=, prefix3=Cat prefix2=Ca prefix1=C WiBefore=kim prefix4=Catt contains_hyphen=False contains_number=False WiBeforeBefore=by suffix4=rall TiBeforeBefore=IN/NNP suffix2=ll suffix3=all suffix1=l
+, TiBefore=NNP WiAfterAfter=mistakenly WiAfter=was Wi=, WiBefore=cattrall WiBeforeBefore=kim TiBeforeBefore=NNP/NNP
+VBD TiBefore=, WiAfterAfter=attributed WiAfter=mistakenly Wi=was WiBefore=, WiBeforeBefore=cattrall TiBeforeBefore=NNP/,
+RB TiBefore=VBD WiAfterAfter=to WiAfter=attributed Wi=mistakenly WiBefore=was WiBeforeBefore=, TiBeforeBefore=,/VBD
+VBN TiBefore=RB WiAfterAfter=Christina WiAfter=to Wi=attributed WiBefore=mistakenly WiBeforeBefore=was TiBeforeBefore=VBD/RB
+IN TiBefore=VBN WiAfterAfter=Haag WiAfter=Christina Wi=to WiBefore=attributed WiBeforeBefore=mistakenly TiBeforeBefore=RB/VBN
+NNP TiBefore=IN WiAfterAfter=. contains_uppercase=True WiAfter=Haag prefix3=Chr prefix2=Ch prefix1=C WiBefore=to prefix4=Chri contains_hyphen=False contains_number=False WiBeforeBefore=attributed suffix4=tina TiBeforeBefore=VBN/IN suffix2=na suffix3=ina suffix1=a
+NNP TiBefore=NNP contains_uppercase=True WiAfter=. prefix3=Haa prefix2=Ha prefix1=H WiBefore=christina prefix4=Haag contains_hyphen=False contains_number=False WiBeforeBefore=to suffix4=Haag TiBeforeBefore=IN/NNP suffix2=ag suffix3=aag suffix1=g
+. TiBefore=NNP WiBeforeBefore=christina WiBefore=haag Wi=. TiBeforeBefore=NNP/NNP
+NNP TiBefore=XX WiAfterAfter=plays WiAfter=Haag Wi=ms. TiBeforeBefore=XX/XX
+NNP TiBefore=NNP WiAfterAfter=Elianti contains_uppercase=True WiAfter=plays prefix3=Haa prefix2=Ha prefix1=H WiBefore=ms. prefix4=Haag contains_hyphen=False contains_number=False suffix4=Haag TiBeforeBefore=XX/NNP suffix2=ag suffix3=aag suffix1=g
+VBZ TiBefore=NNP WiAfterAfter=. WiAfter=Elianti Wi=plays WiBefore=haag WiBeforeBefore=ms. TiBeforeBefore=NNP/NNP
+NNP TiBefore=VBZ contains_uppercase=True WiAfter=. prefix3=Eli prefix2=El prefix1=E WiBefore=plays prefix4=Elia contains_hyphen=False contains_number=False WiBeforeBefore=haag suffix4=anti TiBeforeBefore=NNP/VBZ suffix2=ti suffix3=nti suffix1=i
+. TiBefore=NNP WiBeforeBefore=plays WiBefore=elianti Wi=. TiBeforeBefore=VBZ/NNP
+NNP TiBefore=XX WiAfterAfter=Cars contains_uppercase=True prefix3=Rol prefix2=Ro prefix1=R WiAfter=Motor prefix4=Roll contains_hyphen=True contains_number=False suffix4=oyce TiBeforeBefore=XX/XX suffix2=ce suffix3=yce suffix1=e
+NNP TiBefore=NNP WiAfterAfter=Inc. WiAfter=Cars Wi=motor WiBefore=rolls-royce TiBeforeBefore=XX/NNP
+NNPS TiBefore=NNP WiAfterAfter=said WiAfter=Inc. Wi=cars WiBefore=motor WiBeforeBefore=rolls-royce TiBeforeBefore=NNP/NNP
+NNP TiBefore=NNPS WiAfterAfter=it WiAfter=said Wi=inc. WiBefore=cars WiBeforeBefore=motor TiBeforeBefore=NNP/NNPS
+VBD TiBefore=NNP WiAfterAfter=expects WiAfter=it Wi=said WiBefore=inc. WiBeforeBefore=cars TiBeforeBefore=NNPS/NNP
+PRP TiBefore=VBD WiAfterAfter=its WiAfter=expects Wi=it WiBefore=said WiBeforeBefore=inc. TiBeforeBefore=NNP/VBD
+VBZ TiBefore=PRP WiAfterAfter=U.S. WiAfter=its Wi=expects WiBefore=it WiBeforeBefore=said TiBeforeBefore=VBD/PRP
+PRP$ TiBefore=VBZ WiAfterAfter=sales WiAfter=U.S. Wi=its WiBefore=expects WiBeforeBefore=it TiBeforeBefore=PRP/VBZ
+NNP TiBefore=PRP$ WiAfterAfter=to WiAfter=sales Wi=u.s. WiBefore=its WiBeforeBefore=expects TiBeforeBefore=VBZ/PRP$
+NNS TiBefore=NNP WiAfterAfter=remain WiAfter=to Wi=sales WiBefore=u.s. WiBeforeBefore=its TiBeforeBefore=PRP$/NNP
+TO TiBefore=NNS WiAfterAfter=steady WiAfter=remain Wi=to WiBefore=sales WiBeforeBefore=u.s. TiBeforeBefore=NNP/NNS
+VB TiBefore=TO WiAfterAfter=at WiAfter=steady Wi=remain WiBefore=to WiBeforeBefore=sales TiBeforeBefore=NNS/TO
+JJ TiBefore=VB WiAfterAfter=about WiAfter=at Wi=steady WiBefore=remain WiBeforeBefore=to TiBeforeBefore=TO/VB
+IN TiBefore=JJ WiAfterAfter=1,200 WiAfter=about Wi=at WiBefore=steady WiBeforeBefore=remain TiBeforeBefore=VB/JJ
+IN TiBefore=IN WiAfterAfter=cars WiAfter=1,200 Wi=about WiBefore=at WiBeforeBefore=steady TiBeforeBefore=JJ/IN
+CD TiBefore=IN WiAfterAfter=in WiAfter=cars Wi=1,200 WiBefore=about WiBeforeBefore=at TiBeforeBefore=IN/IN
+NNS TiBefore=CD WiAfterAfter=1990 WiAfter=in Wi=cars WiBefore=1,200 WiBeforeBefore=about TiBeforeBefore=IN/CD
+IN TiBefore=NNS WiAfterAfter=. WiAfter=1990 Wi=in WiBefore=cars WiBeforeBefore=1,200 TiBeforeBefore=CD/NNS
+CD TiBefore=IN WiAfter=. Wi=1990 WiBefore=in WiBeforeBefore=cars TiBeforeBefore=NNS/IN
+. TiBefore=CD WiBeforeBefore=in WiBefore=1990 Wi=. TiBeforeBefore=IN/CD
+DT TiBefore=XX WiAfterAfter=auto WiAfter=luxury Wi=the TiBeforeBefore=XX/XX
+NN TiBefore=DT WiAfterAfter=maker WiAfter=auto Wi=luxury WiBefore=the TiBeforeBefore=XX/DT
+NN TiBefore=NN WiAfterAfter=last WiAfter=maker Wi=auto WiBefore=luxury WiBeforeBefore=the TiBeforeBefore=DT/NN
+NN TiBefore=NN WiAfterAfter=year WiAfter=last Wi=maker WiBefore=auto WiBeforeBefore=luxury TiBeforeBefore=NN/NN
+JJ TiBefore=NN WiAfterAfter=sold WiAfter=year Wi=last WiBefore=maker WiBeforeBefore=auto TiBeforeBefore=NN/NN
+NN TiBefore=JJ WiAfterAfter=1,214 WiAfter=sold Wi=year WiBefore=last WiBeforeBefore=maker TiBeforeBefore=NN/JJ
+VBD TiBefore=NN WiAfterAfter=cars WiAfter=1,214 Wi=sold WiBefore=year WiBeforeBefore=last TiBeforeBefore=JJ/NN
+CD TiBefore=VBD WiAfterAfter=in contains_uppercase=False WiAfter=cars prefix3=1,2 prefix2=1, prefix1=1 WiBefore=sold prefix4=1,21 contains_hyphen=False contains_number=True WiBeforeBefore=year suffix4=,214 TiBeforeBefore=NN/VBD suffix2=14 suffix3=214 suffix1=4
+NNS TiBefore=CD WiAfterAfter=the WiAfter=in Wi=cars WiBefore=1,214 WiBeforeBefore=sold TiBeforeBefore=VBD/CD
+IN TiBefore=NNS WiAfterAfter=U.S. WiAfter=the Wi=in WiBefore=cars WiBeforeBefore=1,214 TiBeforeBefore=CD/NNS
+DT TiBefore=IN WiAfter=U.S. Wi=the WiBefore=in WiBeforeBefore=cars TiBeforeBefore=NNS/IN
+NNP TiBefore=DT WiBeforeBefore=in WiBefore=the Wi=u.s. TiBeforeBefore=IN/DT
+NNP TiBefore=XX WiAfterAfter=, WiAfter=Mosher Wi=howard TiBeforeBefore=XX/XX
+NNP TiBefore=NNP WiAfterAfter=president contains_uppercase=True WiAfter=, prefix3=Mos prefix2=Mo prefix1=M WiBefore=howard prefix4=Mosh contains_hyphen=False contains_number=False suffix4=sher TiBeforeBefore=XX/NNP suffix2=er suffix3=her suffix1=r
+, TiBefore=NNP WiAfterAfter=and WiAfter=president Wi=, WiBefore=mosher WiBeforeBefore=howard TiBeforeBefore=NNP/NNP
+NN TiBefore=, WiAfterAfter=chief WiAfter=and Wi=president WiBefore=, WiBeforeBefore=mosher TiBeforeBefore=NNP/,
+CC TiBefore=NN WiAfterAfter=executive WiAfter=chief Wi=and WiBefore=president WiBeforeBefore=, TiBeforeBefore=,/NN
+JJ TiBefore=CC WiAfterAfter=officer WiAfter=executive Wi=chief WiBefore=and WiBeforeBefore=president TiBeforeBefore=NN/CC
+NN TiBefore=JJ WiAfterAfter=, WiAfter=officer Wi=executive WiBefore=chief WiBeforeBefore=and TiBeforeBefore=CC/JJ
+NN TiBefore=NN WiAfterAfter=said WiAfter=, Wi=officer WiBefore=executive WiBeforeBefore=chief TiBeforeBefore=JJ/NN
+, TiBefore=NN WiAfterAfter=he WiAfter=said Wi=, WiBefore=officer WiBeforeBefore=executive TiBeforeBefore=NN/NN
+VBD TiBefore=, WiAfterAfter=anticipates WiAfter=he Wi=said WiBefore=, WiBeforeBefore=officer TiBeforeBefore=NN/,
+PRP TiBefore=VBD WiAfterAfter=growth WiAfter=anticipates Wi=he WiBefore=said WiBeforeBefore=, TiBeforeBefore=,/VBD
+VBZ TiBefore=PRP WiAfterAfter=for WiAfter=growth Wi=anticipates WiBefore=he WiBeforeBefore=said TiBeforeBefore=VBD/PRP
+NN TiBefore=VBZ WiAfterAfter=the WiAfter=for Wi=growth WiBefore=anticipates WiBeforeBefore=he TiBeforeBefore=PRP/VBZ
+IN TiBefore=NN WiAfterAfter=luxury WiAfter=the Wi=for WiBefore=growth WiBeforeBefore=anticipates TiBeforeBefore=VBZ/NN
+. TiBefore=NNS WiBeforeBefore=the WiBefore=airplanes Wi=. TiBeforeBefore=DT/NNS
+IN TiBefore=XX WiAfterAfter=were WiAfter=they Wi=if TiBeforeBefore=XX/XX
+PRP TiBefore=IN WiAfterAfter=to WiAfter=were Wi=they WiBefore=if TiBeforeBefore=XX/IN
+VBD TiBefore=PRP WiAfterAfter=insist WiAfter=to Wi=were WiBefore=they WiBeforeBefore=if TiBeforeBefore=IN/PRP
+TO TiBefore=VBD WiAfterAfter=on WiAfter=insist Wi=to WiBefore=were WiBeforeBefore=they TiBeforeBefore=PRP/VBD
+VB TiBefore=TO WiAfterAfter=a WiAfter=on Wi=insist WiBefore=to WiBeforeBefore=were TiBeforeBefore=VBD/TO
+IN TiBefore=VB WiAfterAfter=low WiAfter=a Wi=on WiBefore=insist WiBeforeBefore=to TiBeforeBefore=TO/VB
+DT TiBefore=IN WiAfterAfter=bid WiAfter=low Wi=a WiBefore=on WiBeforeBefore=insist TiBeforeBefore=VB/IN
+JJ TiBefore=DT WiAfterAfter=of WiAfter=bid Wi=low WiBefore=a WiBeforeBefore=on TiBeforeBefore=IN/DT
+NN TiBefore=JJ WiAfterAfter=, WiAfter=of Wi=bid WiBefore=low WiBeforeBefore=a TiBeforeBefore=DT/JJ
+IN TiBefore=NN WiAfterAfter=say WiAfter=, Wi=of WiBefore=bid WiBeforeBefore=low TiBeforeBefore=JJ/NN
+, TiBefore=IN WiAfterAfter=$ WiAfter=say Wi=, WiBefore=of WiBeforeBefore=bid TiBeforeBefore=NN/IN
+VB TiBefore=, WiAfterAfter=200 WiAfter=$ Wi=say WiBefore=, WiBeforeBefore=of TiBeforeBefore=IN/,
+$ TiBefore=VB WiAfterAfter=a WiAfter=200 Wi=$ WiBefore=say WiBeforeBefore=, TiBeforeBefore=,/VB
+CD TiBefore=$ WiAfterAfter=share WiAfter=a Wi=200 WiBefore=$ WiBeforeBefore=say TiBeforeBefore=VB/$
+DT TiBefore=CD WiAfterAfter=, WiAfter=share Wi=a WiBefore=200 WiBeforeBefore=$ TiBeforeBefore=$/CD
+NN TiBefore=DT WiAfterAfter=the WiAfter=, Wi=share WiBefore=a WiBeforeBefore=200 TiBeforeBefore=CD/DT
+, TiBefore=NN WiAfterAfter=board WiAfter=the Wi=, WiBefore=share WiBeforeBefore=a TiBeforeBefore=DT/NN
+DT TiBefore=, WiAfterAfter=might WiAfter=board Wi=the WiBefore=, WiBeforeBefore=share TiBeforeBefore=NN/,
+NN TiBefore=DT WiAfterAfter=n't WiAfter=might Wi=board WiBefore=the WiBeforeBefore=, TiBeforeBefore=,/DT
+MD TiBefore=NN WiAfterAfter=be WiAfter=n't Wi=might WiBefore=board WiBeforeBefore=the TiBeforeBefore=DT/NN
+RB TiBefore=MD WiAfterAfter=able WiAfter=be Wi=n't WiBefore=might WiBeforeBefore=board TiBeforeBefore=NN/MD
+VB TiBefore=RB WiAfterAfter=to WiAfter=able Wi=be WiBefore=n't WiBeforeBefore=might TiBeforeBefore=MD/RB
+JJ TiBefore=VB WiAfterAfter=obtain WiAfter=to Wi=able WiBefore=be WiBeforeBefore=n't TiBeforeBefore=RB/VB
+TO TiBefore=JJ WiAfterAfter=a WiAfter=obtain Wi=to WiBefore=able WiBeforeBefore=be TiBeforeBefore=VB/JJ
+VB TiBefore=TO WiAfterAfter=higher WiAfter=a Wi=obtain WiBefore=to WiBeforeBefore=able TiBeforeBefore=JJ/TO
+DT TiBefore=VB WiAfterAfter=offer WiAfter=higher Wi=a WiBefore=obtain WiBeforeBefore=to TiBeforeBefore=TO/VB
+JJR TiBefore=DT WiAfterAfter=from WiAfter=offer Wi=higher WiBefore=a WiBeforeBefore=obtain TiBeforeBefore=VB/DT
+NN TiBefore=JJR WiAfterAfter=other WiAfter=from Wi=offer WiBefore=higher WiBeforeBefore=a TiBeforeBefore=DT/JJR
+IN TiBefore=NN WiAfterAfter=bidders WiAfter=other Wi=from WiBefore=offer WiBeforeBefore=higher TiBeforeBefore=JJR/NN
+JJ TiBefore=IN WiAfterAfter=because WiAfter=bidders Wi=other WiBefore=from WiBeforeBefore=offer TiBeforeBefore=NN/IN
+NNS TiBefore=JJ WiAfterAfter=banks WiAfter=because Wi=bidders WiBefore=other WiBeforeBefore=from TiBeforeBefore=IN/JJ
+IN TiBefore=NNS WiAfterAfter=might WiAfter=banks Wi=because WiBefore=bidders WiBeforeBefore=other TiBeforeBefore=JJ/NNS
+NNS TiBefore=IN WiAfterAfter=hesitate WiAfter=might Wi=banks WiBefore=because WiBeforeBefore=bidders TiBeforeBefore=NNS/IN
+MD TiBefore=NNS WiAfterAfter=to WiAfter=hesitate Wi=might WiBefore=banks WiBeforeBefore=because TiBeforeBefore=IN/NNS
+VB TiBefore=MD WiAfterAfter=finance WiAfter=to Wi=hesitate WiBefore=might WiBeforeBefore=banks TiBeforeBefore=NNS/MD
+TO TiBefore=VB WiAfterAfter=a WiAfter=finance Wi=to WiBefore=hesitate WiBeforeBefore=might TiBeforeBefore=MD/VB
+VB TiBefore=TO WiAfterAfter=transaction WiAfter=a Wi=finance WiBefore=to WiBeforeBefore=hesitate TiBeforeBefore=VB/TO
+DT TiBefore=VB WiAfterAfter=the WiAfter=transaction Wi=a WiBefore=finance WiBeforeBefore=to TiBeforeBefore=TO/VB
+NN TiBefore=DT WiAfterAfter=pilots WiAfter=the Wi=transaction WiBefore=a WiBeforeBefore=finance TiBeforeBefore=VB/DT
+DT TiBefore=NN WiAfterAfter=oppose WiAfter=pilots Wi=the WiBefore=transaction WiBeforeBefore=a TiBeforeBefore=DT/NN
+NNS TiBefore=DT WiAfterAfter=. WiAfter=oppose Wi=pilots WiBefore=the WiBeforeBefore=transaction TiBeforeBefore=NN/DT
+VBP TiBefore=NNS WiAfter=. Wi=oppose WiBefore=pilots WiBeforeBefore=the TiBeforeBefore=DT/NNS
+. TiBefore=VBP WiBeforeBefore=pilots WiBefore=oppose Wi=. TiBeforeBefore=NNS/VBP
+RB TiBefore=XX WiAfterAfter=because WiAfter=, Wi=also TiBeforeBefore=XX/XX
+, TiBefore=RB WiAfterAfter=UAL WiAfter=because Wi=, WiBefore=also TiBeforeBefore=XX/RB
+IN TiBefore=, WiAfterAfter=Chairman WiAfter=UAL Wi=because WiBefore=, WiBeforeBefore=also TiBeforeBefore=RB/,
+NNP TiBefore=IN WiAfterAfter=Stephen WiAfter=Chairman Wi=ual WiBefore=because WiBeforeBefore=, TiBeforeBefore=,/IN
+NNP TiBefore=NNP WiAfterAfter=Wolf WiAfter=Stephen Wi=chairman WiBefore=ual WiBeforeBefore=because TiBeforeBefore=IN/NNP
+NNP TiBefore=NNP WiAfterAfter=and WiAfter=Wolf Wi=stephen WiBefore=chairman WiBeforeBefore=ual TiBeforeBefore=NNP/NNP
+NNP TiBefore=NNP WiAfterAfter=other WiAfter=and Wi=wolf WiBefore=stephen WiBeforeBefore=chairman TiBeforeBefore=NNP/NNP
+CC TiBefore=NNP WiAfterAfter=UAL WiAfter=other Wi=and WiBefore=wolf WiBeforeBefore=stephen TiBeforeBefore=NNP/NNP
+JJ TiBefore=CC WiAfterAfter=executives WiAfter=UAL Wi=other WiBefore=and WiBeforeBefore=wolf TiBeforeBefore=NNP/CC
+NNP TiBefore=JJ WiAfterAfter=have WiAfter=executives Wi=ual WiBefore=other WiBeforeBefore=and TiBeforeBefore=CC/JJ
+NNS TiBefore=NNP WiAfterAfter=joined WiAfter=have Wi=executives WiBefore=ual WiBeforeBefore=other TiBeforeBefore=JJ/NNP
+VBP TiBefore=NNS WiAfterAfter=the WiAfter=joined Wi=have WiBefore=executives WiBeforeBefore=ual TiBeforeBefore=NNP/NNS
+VBN TiBefore=VBP WiAfterAfter=pilots WiAfter=the Wi=joined WiBefore=have WiBeforeBefore=executives TiBeforeBefore=NNS/VBP
+DT TiBefore=VBN WiAfterAfter=' WiAfter=pilots Wi=the WiBefore=joined WiBeforeBefore=have TiBeforeBefore=VBP/VBN
+NNS TiBefore=DT WiAfterAfter=bid WiAfter=' Wi=pilots WiBefore=the WiBeforeBefore=joined TiBeforeBefore=VBN/DT
+POS TiBefore=NNS WiAfterAfter=, WiAfter=bid Wi=' WiBefore=pilots WiBeforeBefore=the TiBeforeBefore=DT/NNS
+NN TiBefore=POS WiAfterAfter=the WiAfter=, Wi=bid WiBefore=' WiBeforeBefore=pilots TiBeforeBefore=NNS/POS
+, TiBefore=NN WiAfterAfter=board WiAfter=the Wi=, WiBefore=bid WiBeforeBefore=' TiBeforeBefore=POS/NN
+DT TiBefore=, WiAfterAfter=might WiAfter=board Wi=the WiBefore=, WiBeforeBefore=bid TiBeforeBefore=NN/,
+NN TiBefore=DT WiAfterAfter=be WiAfter=might Wi=board WiBefore=the WiBeforeBefore=, TiBeforeBefore=,/DT
+MD TiBefore=NN WiAfterAfter=forced WiAfter=be Wi=might WiBefore=board WiBeforeBefore=the TiBeforeBefore=DT/NN
+VB TiBefore=MD WiAfterAfter=to WiAfter=forced Wi=be WiBefore=might WiBeforeBefore=board TiBeforeBefore=NN/MD
+VBN TiBefore=VB WiAfterAfter=exclude WiAfter=to Wi=forced WiBefore=be WiBeforeBefore=might TiBeforeBefore=MD/VB
+TO TiBefore=VBN WiAfterAfter=him WiAfter=exclude Wi=to WiBefore=forced WiBeforeBefore=be TiBeforeBefore=VB/VBN
+VB TiBefore=TO WiAfterAfter=from WiAfter=him Wi=exclude WiBefore=to WiBeforeBefore=forced TiBeforeBefore=VBN/TO
+PRP TiBefore=VB WiAfterAfter=its WiAfter=from Wi=him WiBefore=exclude WiBeforeBefore=to TiBeforeBefore=TO/VB
+IN TiBefore=PRP WiAfterAfter=deliberations WiAfter=its Wi=from WiBefore=him WiBeforeBefore=exclude TiBeforeBefore=VB/PRP
+PRP$ TiBefore=IN WiAfterAfter=in WiAfter=deliberations Wi=its WiBefore=from WiBeforeBefore=him TiBeforeBefore=PRP/IN
+NNS TiBefore=PRP$ WiAfterAfter=order WiAfter=in Wi=deliberations WiBefore=its WiBeforeBefore=from TiBeforeBefore=IN/PRP$
+IN TiBefore=NNS WiAfterAfter=to WiAfter=order Wi=in WiBefore=deliberations WiBeforeBefore=its TiBeforeBefore=PRP$/NNS
+NN TiBefore=IN WiAfterAfter=be WiAfter=to Wi=order WiBefore=in WiBeforeBefore=deliberations TiBeforeBefore=NNS/IN
+TO TiBefore=NN WiAfterAfter=fair WiAfter=be Wi=to WiBefore=order WiBeforeBefore=in TiBeforeBefore=IN/NN
+VB TiBefore=TO WiAfterAfter=to WiAfter=fair Wi=be WiBefore=to WiBeforeBefore=order TiBeforeBefore=NN/TO
+JJ TiBefore=VB WiAfterAfter=other WiAfter=to Wi=fair WiBefore=be WiBeforeBefore=to TiBeforeBefore=TO/VB
+IN TiBefore=JJ WiAfterAfter=bidders WiAfter=other Wi=to WiBefore=fair WiBeforeBefore=be TiBeforeBefore=VB/JJ
+JJ TiBefore=IN WiAfterAfter=. WiAfter=bidders Wi=other WiBefore=to WiBeforeBefore=fair TiBeforeBefore=JJ/IN
+NNS TiBefore=JJ WiAfter=. Wi=bidders WiBefore=other WiBeforeBefore=to TiBeforeBefore=IN/JJ
+. TiBefore=NNS WiBeforeBefore=other WiBefore=bidders Wi=. TiBeforeBefore=JJ/NNS
+DT TiBefore=XX WiAfterAfter=cost WiAfter=could Wi=that TiBeforeBefore=XX/XX
+MD TiBefore=DT WiAfterAfter=him WiAfter=cost Wi=could WiBefore=that TiBeforeBefore=XX/DT
+VB TiBefore=MD WiAfterAfter=the WiAfter=him Wi=cost WiBefore=could WiBeforeBefore=that TiBeforeBefore=DT/MD
+PRP TiBefore=VB WiAfterAfter=chance WiAfter=the Wi=him WiBefore=cost WiBeforeBefore=could TiBeforeBefore=MD/VB
+DT TiBefore=PRP WiAfterAfter=to WiAfter=chance Wi=the WiBefore=him WiBeforeBefore=cost TiBeforeBefore=VB/PRP
+NN TiBefore=DT WiAfterAfter=influence WiAfter=to Wi=chance WiBefore=the WiBeforeBefore=him TiBeforeBefore=PRP/DT
+TO TiBefore=NN WiAfterAfter=the WiAfter=influence Wi=to WiBefore=chance WiBeforeBefore=the TiBeforeBefore=DT/NN
+VB TiBefore=TO WiAfterAfter=outcome WiAfter=the Wi=influence WiBefore=to WiBeforeBefore=chance TiBeforeBefore=NN/TO
+DT TiBefore=VB WiAfterAfter=and WiAfter=outcome Wi=the WiBefore=influence WiBeforeBefore=to TiBeforeBefore=TO/VB
+NN TiBefore=DT WiAfterAfter=perhaps WiAfter=and Wi=outcome WiBefore=the WiBeforeBefore=influence TiBeforeBefore=VB/DT
+CC TiBefore=NN WiAfterAfter=join WiAfter=perhaps Wi=and WiBefore=outcome WiBeforeBefore=the TiBeforeBefore=DT/NN
+RB TiBefore=CC WiAfterAfter=the WiAfter=join Wi=perhaps WiBefore=and WiBeforeBefore=outcome TiBeforeBefore=NN/CC
+VB TiBefore=RB WiAfterAfter=winning WiAfter=the Wi=join WiBefore=perhaps WiBeforeBefore=and TiBeforeBefore=CC/RB
+DT TiBefore=VB WiAfterAfter=bidder WiAfter=winning Wi=the WiBefore=join WiBeforeBefore=perhaps TiBeforeBefore=RB/VB
+VBG TiBefore=DT WiAfterAfter=. WiAfter=bidder Wi=winning WiBefore=the WiBeforeBefore=join TiBeforeBefore=VB/DT
+NN TiBefore=VBG WiAfter=. Wi=bidder WiBefore=winning WiBeforeBefore=the TiBeforeBefore=DT/VBG
+. TiBefore=NN WiBeforeBefore=winning WiBefore=bidder Wi=. TiBeforeBefore=VBG/NN
+ TiBefore=XX contains_hyphen=False contains_number=False contains_uppercase=False TiBeforeBefore=XX/XX

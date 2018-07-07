@@ -1,0 +1,39 @@
+
+The NER results are lower than the POS results 
+(how much lower?), look at the data and think why.
+
+They are 5%-15% lower.
+The POS dataset contains a big number of tags, 
+therefore, not all the possible sequences are captured 
+and the assumption of the next tag based on previous tags 
+is limited to the seen tags only. 
+On the other hand, the NER dataset contains only a few 
+tags, therefore, all the possible sequences are captured
+and there are not many of them, so the prediction is less
+accurate.
+
+______________________________________________________________
+
+Another way is to consider precision, recall and F-measure 
+for correctly identified spans. (what is your spans F-measure?).
+
+In the statistics below
+
+______________________________________________________________
+
+The span-based F scores are lower than the accuracy scores. Why?
+
+The span scores are based on a combination between the precision 
+score and the recall score. 
+Whereas the accuracy scores are more like the precision score.
+
+_______________________________________________________________
+Can you improve the MEMM tagger on the NER data?
+
+We can use external knowledge to improve accuracy. For example, 
+lists extracted from the web that cover common names, countries, 
+monetary units, temporal expressions, etc. 
+
+_______________________________________________________________
+
+The accuracies are in the Writeup file!
