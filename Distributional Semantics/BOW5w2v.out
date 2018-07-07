@@ -1,0 +1,29 @@
+Loading input files...
+
+printing first order
+car ['racing', 'mygale', 'bmw', 'driver', 'motor', 'cars', 'dealership', 'parked', 'rear-drive', 'accident', 'mid-engined', 'dealerships', 'touring', 'champ', 'race', 'toyota', 'rental', 'suv', 'truck', 'auto']
+bus ['buses', 'ksrtc', 'samtrans', 'seabus', 'smrt', 'connexxion', 'inter-city', 'intercity', 'msrtc', 'transit', 'double-decker', 'tram', 'commuter', 'apsrtc', 'services', 'routes', 'hiroden', 'metrobus', 'kmb', 'fixed-route']
+hospital ['bethlem', 'moorfields', 'psychiatric', 'hospitals', 'infirmary', 'foundling', 'siriraj', 'maudsley', 'westmead', 'bellevue', 'convalescent', 'polyclinic', 'maternity', 'sunnybrook', 'soroka', 'clinic', 'mulago', 'in-patient', 'dispensary', 'deaconess']
+hotel ['hotels', 'westin', 'radisson', 'kempinski', 'sofitel', 'ramada', 'biltmore', 'ritz-carlton', 'sheraton', 'marriott', 'waldorf-astoria', 'five-star', '5-star', 'crowne', 'doubletree', 'restaurant', 'hyatt', 'hilton', 'luxury', 'luxurious']
+gun ['guns', 'submachine', 'machine', 'gatling', 'sub-machine', 'howitzer', 'rifle', '40mm', '11-inch', 'emplacements', 'muzzle-loading', '20mm', '75mm', 'smoothbore', 'turrets', 'recoilless', '5-inch', 'turret', 'breech-loading', 'anti-aircraft']
+bomb ['bombs', 'detonated', 'detonates', 'detonate', 'atomic', 'exploded', 'detonating', 'bomber', 'bombing', 'blast', 'bombings', 'booby-trap', 'landmine', 'v-1', 'hiroshima', 'nuclear', 'laser-guided', 'explodes', 'blasts', 'detonation']
+horse ['horses', 'standardbred', 'thoroughbred', 'trotting', 'riding', 'racing', 'ridden', 'galloping', 'bred', 'gelding', 'stud', 'appaloosa', 'pommel', 'bareback', 'bronc', 'sired', 'thoroughbreds', 'friesian', 'stables', 'aqha']
+fox ['vulpes', 'news', 'movietone', 'owned-and-operated', 'nbc', 'cbs', 'terrier', 'affiliate', 'cnn', 'msnbc', 'abc', 'espn', 'mynetworktv', 'nine-tailed', 'wb', 'wish-tv', 'wtae-tv', 'blitzer', 'marten', 'cw']
+table ['sortable', 'tables', 'tennis', 'lookup', 'billiards', 'foosball', 'periodic', 'billiard', 'toc', 'look-up', 'hash', 'collapsible', 'snooker', 'below', 'round', 'carom', 'contents', 'tabular', 'bottom', 'headers']
+bowl ['xli', 'bowls', 'xliv', 'xxxviii', 'xliii', 'xlii', 'xlvi', 'xlv', 'super', 'xxxix', 'xxxv', 'xxxi', 'xxxvii', 'xxxvi', 'xlvii', 'xxxiii', 'xxv', 'xxvii', 'xxviii', 'xxxiv']
+guitar ['bass', 'guitars', 'drums', 'keyboards', 'nyckelharpa', 'glockenspiel', '6-string', 'tambourine', 'banjo', 'vocals', 'harmonica', 'fretless', 'ukulele', '12-string', 'benmont', 'six-string', 'riffs', 'piano', 'accordion', 'melodica']
+piano ['violin', 'sonata', 'cello', 'concerto', 'op', 'harpsichord', 'concertos', 'viola', 'violoncello', 'sonatas', 'divertimento', 'pianoforte', 'e-flat', 'concerti', 'concertante', 'clarinet', 'sonatina', 'bassoon', 'nyckelharpa', 'guitar']
+
+printing second order
+car ['cars', 'truck', 'automobile', 'vehicle', 'motorbike', 'motorcycle', 'driver', 'minivan', 'suv', 'lorry', 'motorcar', 'mid-engined', 'limousine', 'front-engined', 'moped', 'motorhome', 'mercedes-benz', 'bike', 'rear-engined', 'three-wheeled']
+bus ['buses', 'tram', 'metrobus', 'intercity', 'busses', 'fixed-route', 'minibus', 'inter-city', 'ksrtc', 'commuter', 'apsrtc', 'msrtc', 'inter-urban', 'dial-a-ride', 'mini-bus', 'light-rail', 'rail', 'transit', 'trolleybus', 'limited-stop']
+hospital ['clinic', 'hospitals', 'infirmary', 'hospice', 'lying-in', 'dispensary', 'polyclinic', 'sanatorium', 'convalescent', 'mulago', 'addenbrooke', 'bethlem', 'psychiatric', 'maudsley', 'siriraj', 'sanitarium', 'in-patient', 'incurables', 'orthopaedic', 'westmead']
+hotel ['motel', 'restaurant', 'doubletree', 'sheraton', 'hotels', 'ritz-carlton', 'sofitel', 'westin', 'ramada', 'casino', 'kempinski', 'mansion', 'inn', 'cafe', 'tavern', 'apartments', 'boutique', 'nightclub', 'marriott', 'travelodge']
+gun ['guns', 'cannon', 'howitzer', 'sub-machine', 'flamethrower', 'belt-fed', '37mm', 'smoothbore', 'pistol', 'shkas', '105mm', '40mm', 'gatling', 'recoilless', '76mm', '3-inch', 'rifle', '88mm', 'large-caliber', 'autocannons']
+bomb ['bombs', 'detonated', 'detonates', 'detonate', 'booby-trap', 'detonating', 'firebomb', 'car-bomb', 'exploded', 'detonation', 'warhead', '500-pound', 'b61', 'laser-guided', 'blast', 'explosives', 'detonations', 'landmine', 'tallboy', 'thermonuclear']
+horse ['horses', 'standardbred', 'saddlebred', 'gelding', 'thoroughbred', 'stallion', 'racehorses', 'dog', 'riderless', 'gaited', 'bronc', 'percheron', 'pony', 'trotting', 'harness', 'chariot', 'appaloosa', 'sulky', 'racehorse', 'greyhound']
+fox ['abc', 'cbs', 'nbc', 'wxyz-tv', 'msnbc', 'ctv', 'wsvn', 'familynet', 'wttg', 'wjbk', 'wfxt', 'espn', 'wofl', 'cnn', 'oln', 'blitzer', 'nesn', 'wesh', 'wb', 'wgn-tv']
+table ['tables', 'sortable', 'wikitable', 'look-up', 'foosball', 'toc', 'bulleted', 'ping-pong', 'billiard', 'table-tennis', 'textbox', 'tray', 'lookup', 'wikitables', 'brackets', 'header', 'footer', 'tabular', 'menu', 'carom']
+bowl ['xliii', 'xlii', 'xliv', 'bowls', 'xlvi', 'tostitos', 'xli', 'xxxviii', 'xlv', 'xxxv', 'xxxix', 'xxxvii', 'xlvii', 'xxxvi', 'xxxiv', 'bluebonnet', 'gator', 'xxviii', 'xxxii', 'xxxi']
+guitar ['harmonica', 'mandolin', 'bass', 'drums', 'guitars', 'keyboards', 'accordion', 'banjo', 'saxophone', '12-string', 'ukulele', 'trombone', 'fiddle', 'autoharp', 'melodica', 'percussion', 'vibraphone', 'tambourine', 'vocals', 'fretless']
+piano ['violin', 'cello', 'harpsichord', 'clarinet', 'viola', 'flute', 'bassoon', 'violoncello', 'oboe', 'concerto', 'saxophone', 'accordion', 'harp', 'trombone', 'sonatas', 'trumpet', 'mandolin', 'pianoforte', 'vibraphone', 'concertos']

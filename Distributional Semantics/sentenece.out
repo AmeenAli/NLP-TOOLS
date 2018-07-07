@@ -1,0 +1,34 @@
+The selected mode is sentence you will find the output in sentence_out
+Processing input file
+Done in 76.24 secs 
+Converting frequencies to PMIs, calculating cosine distances
+Cosine distance, length of every vectors
+Cosine distance, dot product
+Cosine distance: similarity...
+first order similarity:
+('car', ['touring', 'chevrolet', 'bmw', 'gt', 'ferrari', 'gm', 'chassis', 'jaguar', 'honda', 'toyota', 'holden', 'lotus', 'parking', 'trailer', 'lap', 'racing', 'auto', 'driver', 'luxury', 'compartment'])
+('bus', ['transit', 'livery', 'rout', 'commuter', 'interchange', 'tram', 'taxi', 'subway', 'terminal', 'fare', 'depot', 'metro', 'route', 'hyderabad', 'shuttle', 'terminus', 'rack', 'chassis', 'parking', 'underneath'])
+('hospital', ['here', 'psychiatric', 'nh', 'clinic', 'acute', 'mir', 'surgical', 'healthcare', 'insane', 'mercy', 'bed', 'nursing', 'ambulance', 'nurse', 'surgery', 'addiction', 'middlesex', 'surgeon', 'andrea', 'sick'])
+('hotel', ['casino', 'luxury', 'resort', 'sol', 'dining', 'plaza', 'havana', 'inn', 'restaurant', 'nightclub', 'accommodation', 'traveller', 'bedroom', 'windsor', 'lagoon', 'traveler', 'monica', 'cater', 'canary', 'carlton'])
+('gun', ['turret', 'armament', 'mm', 'ammunition', 'mk', 'mortar', 'machine', 'barrel', 'grenade', 'firing', 'pistol', 'he', 'rifle', 'battleship', 'bolt', 'firearm', 'pod', 'battery', 'bullet', 'aa'])
+('bomb', ['explode', 'luftwaffe', 'atomic', 'ira', 'disposal', 'bombing', 'explosive', 'explosion', 'baghdad', 'injure', 'fuse', 'hydrogen', 'neutron', 'blast', 'grenade', 'bomber', 'rack', 'libyan', 'invader', 'jin'])
+('horse', ['thoroughbred', 'likewise', 'breeder', 'jockey', 'cart', 'stud', 'rid', 'arabian', 'handicap', 'trailer', 'drawn', 'mare', 'riding', 'rider', 'cattle', 'breed', 'bombay', 'racing', 'breeding', 'trainer'])
+('fox', ['affiliation', 'hare', 'rabbit', 'newscast', 'subspecies', 'cnn', 'ufc', 'deer', 'cbs', 'nbc', 'abc', 'abundance', 'affiliate', 'holly', 'hunting', 'espn', 'beaver', 'sport', 'dana', 'statewide'])
+('table', ['for', 'with', 'periodic', 'picnic', 'tennis', 'below', 'html', 'gospel', 'marking', 'heading', 'besides', 'slice', 'subscription', 'row', 'summarize', 'column', 'pdf', 'width', 'header', 'excel'])
+('bowl', ['quiz', 'steelers', 'batsman', 'super', 'over', 'bowler', 'rose', 'wicket', 'pro', 'alley', 'sugar', 'pace', 'starter', 'bowling', 'streak', 'stir', 'bronco', 'interception', 'nfl', 'cotton'])
+('guitar', ['percussion', 'bass', 'acoustic', 'keyboard', 'vocal', 'drum', 'saxophone', 'line-up', 'backing', 'rhythm', 'vintage', 'gibson', 'electric', 'violin', 'chord', 'bo', 'tenor', 'piano', 'trumpet', 'cello'])
+('piano', ['cello', 'viola', 'op', 'sonata', 'concerto', 'violin', 'saxophone', 'trumpet', 'flute', 'soprano', 'pianist', 'percussion', 'lesson', 'trio', 'tenor', 'keyboard', 'franz', 'organist', 'conservatory', 'emerson'])
+second order similarity:
+('car', ['drive', 'race', 'men', 'train', 'aircraft', 'driver', 'put', 'choose', 'truck', 'pass', 'long', 'performance', 'total', 'replace', 'track', 'board', 'draw', 'stop', 'hand', 'medium'])
+('bus', ['passenger', 'traffic', 'rail', 'transit', 'transportation', 'jack', 'metro', 'arm', 'double', 'vessel', 'web', 'direction', 'citizen', 'airport', 'bit', 'locomotive', 'plot', 'southeast', 'train', 'connection'])
+('hospital', ['medical', 'chinese', 'latter', 'learn', 'step', 'store', 'stand', 'grant', 'transfer', 'separate', 'successful', 'associate', 'entire', 'condition', 'worker', 'big', 'seek', 'double', 'manage', 'intend'])
+('hotel', ['restaurant', 'wood', 'room', 'abandon', 'fill', 'brand', 'slow', 'memorial', 'dr', 'contact', 'double', 'horse', 'walk', 'palace', 'garden', 'buy', 'rich', 'occupy', 'difficult', 'grant'])
+('gun', ['rifle', 'fit', 'machine', 'enemy', 'demand', 'weapon', 'bar', 'intend', 'initial', 'battery', 'entire', 'pick', 'tank', 'wound', 'eye', 'hear', 'crew', 'shot', 'advance', 'piece'])
+('bomb', ['raid', 'commit', 'enemy', 'fell', 'weapon', 'civilian', 'dozen', 'bomber', 'opponent', 'pilot', 'shot', 'mine', 'abandon', 'injure', 'daniel', 'reading', 'crash', 'sydney', 'defence', 'attract'])
+('horse', ['poor', 'farm', 'fast', 'dog', 'existence', 'male', 'hunt', 'eye', 'farmer', 'owner', 'guide', 'combination', 'felt', 'wood', 'thousand', 'bar', 'citizen', 'latter', 'attract', 'zone'])
+('fox', ['nbc', 'jackson', 'desire', 'adam', 'andrew', 'cbs', 'struggle', 'bbc', 'chris', 'abc', 'johnson', 'bob', 'latter', 'fame', 'cable', 'comedy', 'hire', 'nomination', 'drop', 'roll'])
+('table', ['step', 'piece', 'couple', 'simple', 'opportunity', 'entry', 'hear', 'handle', 'plot', 'horse', 'internet', 'concept', 'i', 'entire', 'latter', 'basic', 'response', 'lay', 'mass', 'anything'])
+('bowl', ['nfl', 'improvement', 'ncaa', 'super', 'pitch', 'quarterback', 'deliver', 'j', 'cricket', 'planet', 'defensive', 'pas', 'writing', 'victory', 'defend', 'limited', 'touchdown', 'trophy', 'chris', 'celebrate'])
+('guitar', ['bass', 'drum', 'vocal', 'guitarist', 'piano', 'keyboard', 'bassist', 'solo', 'singer', 'musician', 'steve', 'chris', 'drummer', 'mike', 'tony', 'vocalist', 'percussion', 'brian', 'jim', 'dave'])
+('piano', ['trumpet', 'bass', 'string', 'flute', 'composer', 'violin', 'solo', 'guitar', 'composition', 'recording', 'don', 'drum', 'chorus', 'orchestra', 'cello', 'trio', 'ensemble', '1970s', 'saxophone', 'concerto'])
+Fennito!!!!!
