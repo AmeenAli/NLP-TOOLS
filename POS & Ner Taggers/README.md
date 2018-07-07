@@ -1,4 +1,4 @@
-Assignment 1: Sequence Tagging
+# Assignment 1: Sequence Tagging
 In this assignment you will implement a sequence tagger using the Viterbi algorithm.
 
 You will implement 2 versions of the tagger:
