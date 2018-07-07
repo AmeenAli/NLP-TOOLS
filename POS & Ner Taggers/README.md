@@ -11,12 +11,12 @@ You will evaluate your taggers on two datatsets.
 
 In addition to the code, you should also submit a short writeup, see below.
 
-Data
+## Data
 The training and test files (tagged corpora) needed for this assignment are available on piazza
 
 We will be using two datasets: one for part-of-speech tagging, based on newswire text, and the other for named-entity recognition based on Twitter data. The instructions below assume the part-of-speech tagging data, which is the main task. However, as sequence tagging is a generic task, you will also train and test your taggers on the named entities data.
 
-HMM Tagger
+# HMM Tagger
 When implementing the HMM tagger, there are two tasks: (a) computing the MLE estimates q and e, (b) finding the best sequence based on these quantities using the Viterbi algorithm.
 
 HMM task 1: MLE estimates (20 pts)
@@ -48,7 +48,7 @@ This indicates a signature for a word starting with upper-case letter and contin
 
 Beyond saving the corpus-based quantities in q.mle and e.mle you code should also contain methods for computing the actual q and e quantities. For example, a method called getQ(t1,t2,t3) (or another name) will be used to compute the quantity q(t3|t1,t2) based on the different counts in the q.mle file. You will use them in the next sections when implementing the actual tagging algorithm.
 
-What to submit:
+###### What to submit:
 
 A program called MLETrain taking 3 commandline parameters, input_file_name, q.mle, e.mle
 
@@ -64,17 +64,17 @@ python MLETrain.py input_file_name q_mle_filename e_mle_filename
 
 Note: If this part takes more than a few seconds to run, you are doing something very wrong.
 
-HMM task 2: Greedy decoding (5 pts)
+## HMM task 2: Greedy decoding (5 pts)
 Implement a greedy tagger. You will assign scores for each position based on the q and e quantities, using the greedy algorithm presented in class.
 
 See "what to submit" instruction in task 3 below.
 
-HMM task 3: Viterbi decoding (20 pts)
+## HMM task 3: Viterbi decoding (20 pts)
 Implement the viterbi algorithm. In this part, your viterbi algorithm will use scores based on the e and q quantities from the previous task, but it is advisable (thouth not required) to write it in a way that will make it easy to re-use the vietrbi code to in the MEMM part, by switching to the scores derived form a log-linear model (that is, the viterbi code could use a getScore(word,tag,prev_tag,prev_prev_tag) function that can be implemented in different ways, one of them is based on q and e).
 
 You need to implement the viterbi algorithm for Trigram tagging. The straight-forward version of the algorithm can be a bit slow, it is better if you add some pruning to not allow some tags at some positions, by restricting the tags certain words can take, or by considering impossible tag sequences. You will lose 5 points if you do not do so.
 
-What to submit:
+###### What to submit:
 
 A program called GreedyTag (implementing greedy tagging) taking 5 commandline parameters, input_file_name, q.mle, e.mle, out_file_name, extra_file_name.
 
@@ -98,18 +98,18 @@ python GreedyTag.py input_file_name q_mle_filename e_mle_filename output_file_na
 
 python HMMTag.py input_file_name q_mle_filename e_mle_filename output_file_name extra_file_name
 
-Your tagger should achieve a test-set accuracy of at leat 95\% on the provided POS-tagging dataset.
+###### Your tagger should achieve a test-set accuracy of at leat 95\% on the provided POS-tagging dataset.
 
 
 
-We should be able to train and test your tagger on new files which we provide. We may use a different tagset.
+###### We should be able to train and test your tagger on new files which we provide. We may use a different tagset.
 
-MEMM Tagger
+# MEMM Tagger
 Like the HMM tagger, the MEMM tagger also has two parts: training and prediction.
 
 Like in the HMM, we will put these in different programs. For the prediction program, you can likely re-use large parts of the code you used for the HMM tagger.
 
-MEMM task 1: Model Training (20 pts)
+## MEMM task 1: Model Training (20 pts)
 In this part you will write code that will extract training data from the the training corpus in a format that a log-linear trainer can understand, and then train a model.
 
 This will be a three-stage process.
@@ -155,9 +155,9 @@ If you implement in Python, we should be able to run your code as python ProgNam
 
 If the implementation of TrainSolver is simply using the liblinear solver from the commandline, you can include a .sh file with the commandline needed to run the liblinear solver, which should be run as bash TrainSolver.sh feature_vecs_file model_file. (Inside a bash script, $1 stands for the first commandline argument, $2 for the second, etc).
 
-Implement the features from table 1 in the MEMM paper (see link in the course website)
+###### Implement the features from table 1 in the MEMM paper (see link in the course website)
 
-What to submit:
+###### What to submit:
 
 Submit the code for the programs in stages (1), (2), and (3). You also need to submit files named features_file_partial, feature_vecs_partial, model_file and feature_map.
 
@@ -178,10 +178,10 @@ Implement a greedy tagger. You will assign scores for each position based on the
 
 See "what to submit" instruction in task 3 below.
 
-MEMM task 3: Viterbi Tagger (15 pts)
+# MEMM task 3: Viterbi Tagger (15 pts)
 Use the model you trained in the previous task inside your vieterbi decoder.
 
-What to submit:
+## What to submit:
 
 A program called GreedyMaxEntTag taking 4 commadnline parameters, input_file_name, modelname, feature_map_file, out_file_name.
 
@@ -213,7 +213,7 @@ Your tagger should achieve a test-set accuracy of at leat 95\% on the provided P
 
 Clarification: In class (and in the MEMM paper) the features are written as form=dog&label=NN, and we assume a feature for each label, that is, we will also have form=dog&label=DT, form=dog&label=VB etc. That is, the label is part of the feature. In the solvers input, we take a somewhat different approach, and do not include the label as part of the feature. Instead, we write the correct label, and all the label-less features. The solver produces the conjunctions with all the different labels internally. Over the years, this is something that was very hard for some students to grasp. I made this illustration which I hope will help to explain this. The first page is the &ti=T notation, while the second one is what liblinear is expecting.
 
-The Named Entities Data (15 pts)
+# The Named Entities Data (15 pts)
 Train and test your taggers also on the named entities data.
 
 Note that there are two ways to evaluate the named entities data. One of them is to look at the per-token accuracy, like in POS tagging (what is your per-token accuracy?).
@@ -230,7 +230,7 @@ Can you improve the MEMM tagger on the NER data?
 
 (maybe these lexicons can help)
 
-What to submit:
+## What to submit:
 
 An ascii text file named ner.txt containing the per-token accuracy on the ner dev data, and the per-span precision, recall and F-measure on the ner dev data. You should include numbers based on the HMM and the MEMM taggers. Include also a brief discussion on the "Why"s above, and a brief description of your attempts to improve the MEMM tagger for the NER data.
 
